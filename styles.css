@@ -90,8 +90,9 @@ body {
 
 .contact-info__block {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    flex-direction: row;
+    gap: 10px;
+    flex-wrap: wrap;
 }
 
 .contact-info__block--center {
