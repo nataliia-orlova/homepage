@@ -7,15 +7,17 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
 
-    --primary-text-color: #181820;
-    --secondary-text-color: #5c5c62;
-    --durability-text-color: #6a737d9c;
-    --icon-color: #6a737d;
-    --border-color: #ff9a0045;
-    --text-decoration-color: #ff9a00;
+    line-height: 1.5;
+    background-color: #10172a;
+
+    --primary-text-color: #fff;
+    --secondary-text-color: #899cc3;
+    --durability-text-color: #398597;
+    --icon-color: #50d4d8;
+    --border-color: #398597;
+    --text-decoration-color: #398597;
 }
 
 .container {
@@ -38,8 +40,7 @@ body {
 
 .resume {
     margin: 50px auto;
-    border: 1px solid #f5f5f5;
-    box-shadow: 1px 1px 7px 7px #f5f5f5;
+    box-shadow: 0 0 28px 18px #111f44;
     padding: 30px 0;
     max-width: 900px;
 }
@@ -81,17 +82,19 @@ body {
     margin-bottom: 15px;
     text-decoration-color: var(--text-decoration-color);
     text-decoration-line: underline;
+    font-weight: 400;
 }
 
 .contact-info__sub-header {
     color: var(--secondary-text-color);
     margin-bottom: 30px;
+    font-weight: 600;
 }
 
 .contact-info__block {
     display: flex;
-    flex-direction: row;
-    gap: 10px;
+    flex-direction: column;
+    gap: 6px;
     flex-wrap: wrap;
 }
 
@@ -106,9 +109,9 @@ body {
     justify-content: start;
 }
 
-.contact-info__item:not(:last-child) {
+/* .contact-info__item:not(:last-child) {
     margin-bottom: 20px;
-}
+} */
 
 .contact-info__item-icon-wrapper {
     margin-right: 10px;
@@ -200,6 +203,7 @@ body {
     text-decoration-line: underline;
     text-align: left;
     margin-bottom: 20px;
+    font-weight: 400;
 }
 
 .experiences__company-project {
@@ -218,6 +222,7 @@ body {
     color: var(--primary-text-color);
     text-align: left;
     margin-bottom: 10px;
+    font-weight: 400;
 }
 
 .experiences__company-project-responsibilities {
@@ -250,6 +255,7 @@ body {
     color: var(--primary-text-color);
     text-align: left;
     margin-bottom: 10px;
+    font-weight: 200;
 }
 
 .additional-info__education-university-name {
