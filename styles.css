@@ -275,3 +275,15 @@ body {
 .additional-info__languages-item {
     color: var(--secondary-text-color);
 }
+
+/* Hobbies and Interests styles */
+.interests__header {
+    color: var(--secondary-text-color);
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.interests__text {
+    color: var(--secondary-text-color);
+    text-align: justify;
+}
